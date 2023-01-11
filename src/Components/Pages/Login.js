@@ -1,5 +1,4 @@
 import "../CSS/Login.css";
-
 import React, { useState } from "react";
 
 const Login = () => {
@@ -8,12 +7,10 @@ const Login = () => {
   const [inpval, setInpval] = useState({
     username: "",
     password: "",
-    type:""
+    type: "Admin"
   });
 
   const setVal = (e) => {
-    // console.log(e.target.value)
-
     const { name, value } = e.target;
 
     setInpval(() => {
@@ -41,16 +38,6 @@ const Login = () => {
     }
   };
 
-  const getInitialState = () => {
-    const value = "admin";
-    return value;
-  };
-
-  const [value, setValue] = useState(getInitialState);
-
-  const handleChange = (e) => {
-    setValue(e.target.value);
-  };
 
   return (
     <>
@@ -59,10 +46,23 @@ const Login = () => {
           <div className="form_heading">
             <h1>Log In</h1>
             <p>Please LogIn</p>
-            <img src="Linux_Logo.webp" alt="" />
+            <img src="logo.png" alt="" />
           </div>
 
           <form>
+            <div >
+              <select className="dropdown" name="type" value={inpval.type} onChange={setVal}>
+                <option name="admin" value="Admin">
+                  Admin
+                </option>
+                <option name="a" value="A">
+                  A
+                </option>
+                <option name="b" value="B">
+                  B
+                </option>
+              </select>
+            </div>
             <div className="form_input">
               <label htmlFor="username">Username</label>
               <input
@@ -96,25 +96,9 @@ const Login = () => {
             <button className="btn2" onClick={loginUser}>
               Login
             </button>
-            <p>Don,t have an Account ?</p>
           </form>
         </div>
       </section>
-      {/* // //////////////////////////////// */}
-      <div>
-        <select name={inpval.type} value={value} onChange={handleChange}>
-          <option name="admin" value="Admin">
-            Admin
-          </option>
-          <option name="a" value="A">
-            A
-          </option>
-          <option name="b" value="B">
-            B
-          </option>
-        </select>
-        <p>{`You selected ${value}`}</p>
-      </div>
     </>
   );
 };

@@ -63,6 +63,15 @@ section .form_data {
   font-size: 15px;
 }
 
+.form_data form .dropdown {
+  font-weight: 600;
+  font-size: 18px;
+}.form_data form .form_input label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
 .form_input .two {
   display: flex;
   align-items: center;
