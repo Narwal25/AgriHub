@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import Login from "./Components/Pages/Login";
 
 function App() {
   return (
-    <h1>Hallo</h1>
+    <>
+      <Login />
+    </>
   );
 }
 
