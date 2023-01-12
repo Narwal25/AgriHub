@@ -7,7 +7,8 @@ const Login = () => {
   const [inpval, setInpval] = useState({
     username: "",
     password: "",
-    type: "Admin"
+    type: "admin",
+    ntype : ''
   });
 
   const setVal = (e) => {
@@ -34,7 +35,7 @@ const Login = () => {
       alert("password must be 6 char");
     } else {
       console.log("Login succesfull ");
-      console.log(inpval);
+      console.log('inpval',inpval);
     }
   };
 
@@ -52,13 +53,13 @@ const Login = () => {
           <form>
             <div >
               <select className="dropdown" name="type" value={inpval.type} onChange={setVal}>
-                <option name="admin" value="Admin">
+                <option  value="admin">
                   Admin
                 </option>
-                <option name="a" value="A">
+                <option  value="a">
                   A
                 </option>
-                <option name="b" value="B">
+                <option  value="b">
                   B
                 </option>
               </select>
