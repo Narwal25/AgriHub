@@ -1,5 +1,8 @@
 import "../CSS/Login.css";
+
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const Login = () => {
   const [passShow, setPassShow] = useState(false);
@@ -7,8 +10,7 @@ const Login = () => {
   const [inpval, setInpval] = useState({
     username: "",
     password: "",
-    type: "admin",
-    ntype : ''
+    usertype: "admin",
   });
 
   const setVal = (e) => {
@@ -47,12 +49,12 @@ const Login = () => {
           <div className="form_heading">
             <h1>Log In</h1>
             <p>Please LogIn</p>
-            <img src="logo.png" alt="" />
+            <img src="loginlogo.webp" alt="login" />
           </div>
 
           <form>
             <div >
-              <select className="dropdown" name="type" value={inpval.type} onChange={setVal}>
+              <select className="dropdown" name="usertype" value={inpval.usertype} onChange={setVal}>
                 <option  value="admin">
                   Admin
                 </option>
