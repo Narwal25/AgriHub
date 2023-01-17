@@ -1,19 +1,18 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route, Outlet } from "react-router-dom";
-import Header from "./Components/Header";
+import { Routes, Route} from "react-router-dom";
 import Login from "./Components/Pages/Login";
 import Error from "./Components/Pages/Error";
+import Home from "./Components/Pages/Home";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/header" element={<Header />}/>
+        <Route path="/home" element={<Home />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Outlet />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import "../CSS/Login.css";
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
@@ -12,6 +12,8 @@ const Login = () => {
     password: "",
     usertype: "admin",
   });
+
+  const Navigate = useNavigate();
 
   const setVal = (e) => {
     const { name, value } = e.target;
@@ -38,6 +40,7 @@ const Login = () => {
     } else {
       console.log("Login succesfull ");
       console.log('inpval',inpval);
+      Navigate('/home')
     }
   };
 
