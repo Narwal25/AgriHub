@@ -1,6 +1,6 @@
-# Farma Project
+# AgriHub Project
 
-Farma is a user-friendly MERN web application designed to provide a seamless interface for managing various farming activities, including Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
+AgriHub is a user-friendly MERN web application designed to provide a seamless interface for managing various farming activities, including Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
 
 ## Project Overview
 
@@ -25,13 +25,13 @@ Farma is a user-friendly MERN web application designed to provide a seamless int
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Narwal25/Farma.git
+   git clone https://github.com/Narwal25/AgriHub.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Farma
+   cd AgriHub
    ```
 
 3. Install dependencies for both the frontend and backend:
@@ -48,19 +48,19 @@ Farma is a user-friendly MERN web application designed to provide a seamless int
    npm run dev
    ```
 
-5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the Farma web interface.
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the AgriHub web interface.
 
 ## Project Status
 
-Farma is currently in its initial stage of development. The focus is on building a robust system for efficiently managing farming activities.
+AgriHub is currently in its initial stage of development. The focus is on building a robust system for efficiently managing farming activities.
 
 ## How to Contribute
 
-We welcome contributions to enhance Farma. If you are interested in contributing, please reach out to the project contributors for more details and guidance.
+We welcome contributions to enhance AgriHub. If you are interested in contributing, please reach out to the project contributors for more details and guidance.
 
 ## Deployment
 
-The latest deployment of Farma is available at [Farma Vercel Deployment](https://farma-virid.vercel.app/).
+The latest deployment of AgriHub is available at [AgriHub Vercel Deployment](https://agrihub-virid.vercel.app/).
 
 ## License
 
@@ -68,4 +68,4 @@ This project is currently not licensed.
 
 ## Acknowledgments
 
-Thank you to all contributors for their dedication and efforts in shaping the Farma project.
+Thank you to all contributors for their dedication and efforts in shaping the AgriHub project.
