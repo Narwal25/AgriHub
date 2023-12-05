@@ -1,6 +1,6 @@
 # Farma Project
 
-Farma is a user-friendly web application crafted with React.js and Node.js, designed to provide a seamless interface for managing various farming activities, including Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
+Farma is a user-friendly MERN web application designed to provide a seamless interface for managing various farming activities, including Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
 
 ## Project Overview
 
