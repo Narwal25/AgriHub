@@ -1,7 +1,6 @@
 # Farma Project
 
-Farma is a user-friendly web application crafted with React.js and Node.js. The primary goal is to facilitate the seamless management of diverse farming activities, encompassing Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
-markdown
+Farma is a user-friendly web application crafted with React.js and Node.js, designed to provide a seamless interface for managing various farming activities, including Accounts, Equipments, and Work done. Users can log in to their accounts to efficiently oversee, store, and visualize information related to work completed, payments received, and pending payments for each farmer.
 
 ## Project Overview
 
@@ -27,39 +26,46 @@ markdown
 
    ```bash
    git clone https://github.com/Narwal25/Farma.git
-Navigate to the project directory:
+   ```
 
-bash
-Copy code
-cd Farma
-Install dependencies for both the frontend and backend:
+2. Navigate to the project directory:
 
-bash
-Copy code
-npm install
-cd client
-npm install
-Run the project:
+   ```bash
+   cd Farma
+   ```
 
-bash
-Copy code
-npm run dev
-Open your web browser and visit http://localhost:3000 to access the Farma web interface.
+3. Install dependencies for both the frontend and backend:
 
-Project Status
-Farma is currently in its initial stage, with the following contributors actively working on it:
+   ```bash
+   npm install
+   cd client
+   npm install
+   ```
 
-Pardeep Narwal - Project Creator
-Dinesh Wadhwa - Contributor
-Contributing
+4. Run the project:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the Farma web interface.
+
+## Project Status
+
+Farma is currently in its initial stage of development. The focus is on building a robust system for efficiently managing farming activities.
+
+## How to Contribute
+
 We welcome contributions to enhance Farma. If you are interested in contributing, please reach out to the project contributors for more details and guidance.
 
-Deployment
-The latest deployment of Farma is available at Farma Vercel Deployment.
+## Deployment
 
-License
+The latest deployment of Farma is available at [Farma Vercel Deployment](https://farma-virid.vercel.app/).
+
+## License
+
 This project is currently not licensed.
 
-Acknowledgments
-Thank you to all contributors for their dedication and efforts in shaping the Farma project.
+## Acknowledgments
 
+Thank you to all contributors for their dedication and efforts in shaping the Farma project.
